@@ -135,11 +135,10 @@ const Example = () => {
               ...validationErrors,
               pinCode: undefined,
             }),
-          //optionally add validation checking for onBlur or onChange
         },
       },
       {
-        size: 250,
+        size: 260,
         accessorKey: "security",
         header: "Daxili təhlükəzlik rəyi",
         enableEditing: role !== "Volunteers",
